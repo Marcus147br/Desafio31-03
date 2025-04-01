@@ -1,0 +1,11 @@
+<?php
+
+$senha = "Senha123";
+
+
+while ($senha != $senhadousuario) {
+    echo "Erro no login" . PHP_EOL;
+    $senhadousuario = readline("Digite sua senha: ");  
+}
+
+echo "Sucesso no login" . PHP_EOL;  
