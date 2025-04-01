@@ -1,0 +1,21 @@
+<?php
+
+function cantar_musica() {
+    
+    $num_patinhos = (int) readline("Digite quantos patinhos foram passear: ");
+    
+    while ($num_patinhos > 0) {
+        echo "$num_patinhos patinhos foram passear\nAlém das montanhas, para brincar.\n";
+        $num_patinhos--;  
+        
+        if ($num_patinhos > 0) {
+            echo "Mas a mamãe patinha foi procurar.\n";
+        } else {
+            echo "Mas a mamãe patinha foi procurar.\n";
+        }
+    }
+
+    echo "Mamãe patinha encontrou todos os patinhos!\n";
+    
+}
+cantar_musica();
